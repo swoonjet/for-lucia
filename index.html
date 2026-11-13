@@ -29,76 +29,50 @@
 <header class="wrap masthead">
   <div class="a"><span class="tag">From:</span><p class="meta"><a class="stretch" href="https://jontoews.com/">Jon Toews</a></p></div>
   <div class="b"><span class="tag">For:</span><p class="meta"><span class="stretch">Lucia</span></p></div>
-  <div class="c"><span class="tag">Re:</span><p class="meta"><span class="stretch">Today’s chat · Two workflows</span></p></div>
+  <div class="c"><span class="tag">Re:</span><p class="meta"><span class="stretch">Today’s chat · AI workflows</span></p></div>
 </header>
 
 <main>
 <section class="wrap hero" aria-labelledby="h">
-  <h1 class="headline" id="h"><span class="l">Hi Lucia <span class="wave" aria-hidden="true">✺</span></span> <span class="l">Here’s the</span> <span class="l">fun stuff.</span></h1>
-  <div class="hero__note">
-    <p class="body">Thanks for the great conversation today. I said I’d show rather than tell, so here are two short films of AI design workflows I’ve been building: real tools, used on real work.</p>
-    <p class="body muted">Each one is a couple of minutes. Grab a coffee, hit play, and skip around as much as you like.</p>
-  </div>
+  <h1 class="headline" id="h">Hi Lucia, great chatting with you today.</h1>
+  <p class="body hero__note">Here’s some of the AI design workflow work I mentioned: tools I’ve been building at Intercept that take a brand from brief to finished, on-brand assets, with the machine doing the heavy lifting and the art direction staying human.</p>
 </section>
 
-<section class="wrap films" aria-label="Two workflows">
+<section class="wrap films" aria-label="Workflows">
 
-  <article class="film" id="one">
+  <article class="film">
     <div class="film__head">
-      <p class="label muted">Workflow one</p>
-      <h2 class="title">Brand Center</h2>
-      <ul class="facts"><li>Brand system</li><li>Generative tools</li><li>~2:30</li></ul>
-    </div>
-    <div class="film__media">
-      <div class="screen" data-video="videos/workflow-1.mp4">
-        <div class="screen__soon"><span>Film arriving shortly</span></div>
-      </div>
-    </div>
-    <div class="film__body">
-      <p class="body">A living brand book with the generators built in. Instead of a PDF of rules, the team gets tools that make on-brand patterns, motion loops and art on demand, so the system stays consistent while the work stays fresh.</p>
-    </div>
-  </article>
-
-  <article class="film" id="two">
-    <div class="film__head">
-      <p class="label muted">Workflow two</p>
       <h2 class="title">Campaign Builder</h2>
-      <ul class="facts"><li>Campaign production</li><li>AI-assisted</li><li>~1:30</li></ul>
     </div>
     <div class="film__media">
-      <div class="screen" data-video="videos/workflow-2.mp4">
-        <div class="screen__soon"><span>Film arriving shortly</span></div>
-      </div>
-    </div>
-    <div class="film__body">
-      <p class="body">From brief to a full set of campaign assets in one guided flow. The machine does the heavy lifting on versions and formats; the art direction stays human.</p>
+      <div class="screen"><video src="videos/campaign-builder.mp4" poster="videos/campaign-builder.jpg" controls playsinline preload="metadata"></video></div>
     </div>
   </article>
 
-</section>
+  <!-- second film: shows itself once videos/brand-center.mp4 exists -->
+  <article class="film" data-video="videos/brand-center.mp4" hidden>
+    <div class="film__head">
+      <h2 class="title">Brand Center</h2>
+    </div>
+    <div class="film__media"><div class="screen"></div></div>
+  </article>
 
-<section class="wrap signoff" aria-label="Sign-off">
-  <p class="title">If anything sparks a question, I’d love to keep the conversation going.</p>
-  <div class="links meta">
-    <a href="mailto:jontoews@gmail.com">jontoews@gmail.com</a>
-    <a href="https://jontoews.com/">jontoews.com</a>
-    <a href="https://www.linkedin.com/in/jontoews/">LinkedIn</a>
-  </div>
 </section>
 </main>
 
 <footer class="wrap site-foot">
   <p class="label muted a">© 2026 Jon Toews</p>
+  <p class="label b"><a href="mailto:jontoews@gmail.com">jontoews@gmail.com</a></p>
+  <p class="label c"><a href="https://jontoews.com/">jontoews.com</a></p>
 </footer>
 
 <script>
-// Swap each placeholder for its video once the file exists in videos/
-document.querySelectorAll(".screen[data-video]").forEach(s => {
+// Reveal a film once its video file exists
+document.querySelectorAll(".film[data-video]").forEach(f => {
   const v = document.createElement("video");
   Object.assign(v, { controls: true, playsInline: true, preload: "metadata" });
-  v.src = s.dataset.video;
-  v.addEventListener("loadedmetadata", () => { s.prepend(v); s.classList.add("has-video"); }, { once: true });
-  v.load();
+  v.src = f.dataset.video;
+  v.addEventListener("loadedmetadata", () => { f.querySelector(".screen").append(v); f.hidden = false; }, { once: true });
 });
 </script>
 <script src="assets/js/moire.js" defer></script>
