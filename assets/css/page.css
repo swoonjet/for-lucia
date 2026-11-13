@@ -109,4 +109,3 @@ main, header, footer { position: relative; z-index: 1; }
 /* ---------- moiré ---------- */
 .moire { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
 .moire__canvas { position: absolute; inset: 0; width: 100%; height: 100%; opacity: var(--moire-opacity); mix-blend-mode: multiply; }
-.film[hidden] { display: none; }

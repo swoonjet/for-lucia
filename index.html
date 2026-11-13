@@ -35,7 +35,7 @@
 <main>
 <section class="wrap hero" aria-labelledby="h">
   <h1 class="headline" id="h">Hi Lucia, great chatting with you today.</h1>
-  <p class="body hero__note">Here’s some of the AI design workflow work I mentioned: tools I’ve been building at Intercept that take a brand from brief to finished, on-brand assets, with the machine doing the heavy lifting and the art direction staying human.</p>
+  <p class="body hero__note">Here’s some of the AI design workflow work I mentioned: tools I built at Intercept that take a brand from brief to finished, on-brand assets, with the machine doing the heavy lifting and the art direction staying human.</p>
 </section>
 
 <section class="wrap films" aria-label="Workflows">
@@ -49,12 +49,13 @@
     </div>
   </article>
 
-  <!-- second film: shows itself once videos/brand-center.mp4 exists -->
-  <article class="film" data-video="videos/brand-center.mp4" hidden>
+  <article class="film">
     <div class="film__head">
-      <h2 class="title">Brand Center</h2>
+      <h2 class="title">Brand Studio</h2>
     </div>
-    <div class="film__media"><div class="screen"></div></div>
+    <div class="film__media">
+      <div class="screen"><video src="videos/brand-studio.mp4" poster="videos/brand-studio.jpg" controls playsinline preload="metadata"><track kind="captions" src="videos/brand-studio.vtt" srclang="en" label="English"></video></div>
+    </div>
   </article>
 
 </section>
@@ -66,15 +67,6 @@
   <p class="label c"><a href="https://jontoews.com/">jontoews.com</a></p>
 </footer>
 
-<script>
-// Reveal a film once its video file exists
-document.querySelectorAll(".film[data-video]").forEach(f => {
-  const v = document.createElement("video");
-  Object.assign(v, { controls: true, playsInline: true, preload: "metadata" });
-  v.src = f.dataset.video;
-  v.addEventListener("loadedmetadata", () => { f.querySelector(".screen").append(v); f.hidden = false; }, { once: true });
-});
-</script>
 <script src="assets/js/moire.js" defer></script>
 <script src="assets/js/stretch.js" defer></script>
 </body>

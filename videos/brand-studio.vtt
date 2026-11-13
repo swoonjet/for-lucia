@@ -1,0 +1,330 @@
+WEBVTT
+
+00:01.954 --> 00:02.414
+Hey there.
+
+00:03.086 --> 00:08.897
+so I'm gonna show you a little bit of, one
+of the things I was doing for Intercept,
+
+00:08.932 --> 00:10.808
+the, B2B agency that I was working at.
+
+00:11.394 --> 00:15.082
+So this was kind of a work in progress
+over a period of time, but, what you're
+
+00:15.083 --> 00:18.626
+seeing here is the brand repo, is what
+we called it, which is basically a
+
+00:18.627 --> 00:22.298
+repository with everything that you
+need to get started with the new brand.
+
+00:22.671 --> 00:27.028
+we launched this new brand and reimagined
+a whole bunch of things, and I came
+
+00:27.030 --> 00:28.455
+up with a bunch of concepts for that.
+
+00:28.477 --> 00:30.403
+One of them was, dynamic branding.
+
+00:30.404 --> 00:34.252
+So the logo isn't just one thing and
+stays the same, it actually does a
+
+00:34.254 --> 00:38.190
+whole bunch of things and can be in
+different colors and different formats,
+
+00:38.190 --> 00:39.556
+and you'll see some of that here.
+
+00:39.556 --> 00:43.711
+So this is just kind of a starting
+place, downloads and guidelines and
+
+00:43.711 --> 00:48.624
+component libraries for Figma, and some
+generators to generate content as well.
+
+00:49.364 --> 00:50.507
+there are some templates here.
+
+00:50.524 --> 00:53.199
+We talked about this a little
+bit, the PowerPoint templates.
+
+00:53.605 --> 00:56.470
+basically, these were all generated.
+
+00:56.529 --> 00:59.979
+You know, we went in and tweaked things,
+but it got better and better at doing it,
+
+00:59.981 --> 01:04.758
+so, we were able to create some basic,
+template structures for, for the brand.
+
+01:05.271 --> 01:06.414
+then some fun stuff.
+
+01:06.438 --> 01:11.109
+This is kind of like a, a, a generator
+for generating Teams backgrounds.
+
+01:11.546 --> 01:15.195
+you can see here, you
+can randomize this thing.
+
+01:15.205 --> 01:20.812
+You can actually pull these around,
+to, get a composition that you like.
+
+01:21.208 --> 01:26.076
+it also will, do video as well, so you
+can have this kind of slowly morphing,
+
+01:26.489 --> 01:27.816
+background, which is kinda neat.
+
+01:28.418 --> 01:31.220
+I'm sorry if you can't see
+all of it here in the screen.
+
+01:31.222 --> 01:36.037
+I'm using Loom, so I'm trying to show
+you everything, in, in this window.
+
+01:36.141 --> 01:38.548
+we also did something for generating
+your own LinkedIn banner so
+
+01:38.548 --> 01:42.520
+everybody can customize, their own
+desktop patterns, or wallpapers.
+
+01:42.617 --> 01:45.634
+they can customize their own,
+LinkedIn banners as well.
+
+01:46.066 --> 01:49.039
+we even did a thing with doing
+your own email signature.
+
+01:49.039 --> 01:51.027
+so I created an application that did that.
+
+01:51.393 --> 01:57.002
+You can see here, if you hit Generate, it
+generates your own unique, Intercept, logo
+
+01:57.005 --> 01:59.053
+for your… You can change colors as well.
+
+01:59.982 --> 02:02.560
+you can see the little chips and
+slices kinda move around, and
+
+02:02.560 --> 02:03.949
+these are all Intercept logos.
+
+02:03.950 --> 02:05.737
+They all are the same brand.
+
+02:06.373 --> 02:07.719
+so that's kind of a neat thing.
+
+02:07.766 --> 02:10.762
+And then you're, you're able to preview
+it here, what it might look like.
+
+02:11.847 --> 02:13.176
+you can see it changing here.
+
+02:14.025 --> 02:18.317
+this is a pattern generator, so just a
+way to present, we call it Fritz patterns.
+
+02:18.341 --> 02:22.233
+These, this triangle motif is called
+Fritz, and it's what the skill
+
+02:22.233 --> 02:25.271
+was called as well, and the brand
+package, was all called Fritz.
+
+02:25.858 --> 02:28.838
+you can change patterns here.
+
+02:28.879 --> 02:33.356
+You can do a whole bunch of
+interesting things, with this, just
+
+02:33.850 --> 02:35.264
+doing, patterns and backgrounds.
+
+02:35.905 --> 02:37.312
+let's see, what else do we have here?
+
+02:37.719 --> 02:40.216
+this Fritzoid animator is kinda neat.
+
+02:40.512 --> 02:45.128
+if you want an animation, you
+can see how this changes, and it
+
+02:45.128 --> 02:48.956
+animates, and there's different
+ways of having it cut maybe instead.
+
+02:49.489 --> 02:53.052
+You can adjust the speed, all this
+kind of stuff, fun things like that.
+
+02:53.819 --> 02:55.660
+and then, assets and downloads.
+
+02:55.663 --> 02:57.945
+So this is all of the, brand guidelines.
+
+02:57.946 --> 03:01.848
+So a font package, there's
+the full f- logo package.
+
+03:02.390 --> 03:05.056
+and there's some brand rules here.
+
+03:05.348 --> 03:08.610
+More of that is in the Figma kit as
+well, but you can see some of it here.
+
+03:09.217 --> 03:13.885
+some photography rules, typography
+rules, and then down below is,
+
+03:13.887 --> 03:15.955
+like, a full component library.
+
+03:16.337 --> 03:22.354
+So everything you could possibly want
+from a UI/UX point of view is all in here.
+
+03:23.006 --> 03:28.335
+and this was all done with combination of
+teaching it what the brand was, but also,
+
+03:28.436 --> 03:30.361
+going in and, and tweaking things, right?
+
+03:30.439 --> 03:33.048
+And then going back and saying, "This
+is the way I actually want it done."
+
+03:33.048 --> 03:38.873
+So again, you know, we can get a lot of
+the way there with AI, but, you know, it
+
+03:38.873 --> 03:42.100
+always has to have somebody at the other
+end saying, "Hey, that's what's good,
+
+03:42.100 --> 03:46.040
+and that's what's not good." So it's
+an, you know, an important consideration
+
+03:46.041 --> 03:47.635
+when we're doing all of this stuff.
+
+03:48.264 --> 03:48.777
+but yeah.
+
+03:48.777 --> 03:50.654
+It's a full, full, full package.
+
+03:50.700 --> 03:52.103
+a lot of work went into it.
+
+03:52.454 --> 03:57.970
+A lot of, a lot of sort of integrations
+into, the workflow for the team as well.
+
+03:58.206 --> 04:00.835
+So that's what I was kind of
+in progress doing, and then I
+
+04:00.836 --> 04:02.285
+handed a lot of that work over.
+
+04:02.807 --> 04:04.279
+let's see, what else can I tell you?
+
+04:04.326 --> 04:05.265
+Just some details.
+
+04:05.266 --> 04:08.949
+You know, you can go to dark mode
+or light mode, things like that.
+
+04:09.579 --> 04:10.146
+but yeah.
+
+04:10.348 --> 04:17.281
+So that's kind of, the Intercept, Fritz
+rebrand, and a lot of the tools and
+
+04:17.290 --> 04:20.724
+some of the fun stuff that, that I used
+to, launch the brand with the team.
+
+04:20.726 --> 04:24.549
+And, and then part of this was also,
+you know, of course, training people
+
+04:24.551 --> 04:29.733
+how to use the brand skill, how
+to use, the Figma kit, and, yeah.
+
+04:29.960 --> 04:34.198
+And then that was all getting rolled
+into a brand OS, which is another
+
+04:34.199 --> 04:38.842
+idea I had for the company, which was
+basically, having a lot of these tools
+
+04:38.842 --> 04:40.617
+live in a centralized kind of place.
+
+04:40.925 --> 04:43.858
+So it's not just a brand repo where
+they go and pull stuff down, but
+
+04:43.862 --> 04:47.331
+a, an actually integrated piece of
+software with the, with the company.
+
+04:47.509 --> 04:49.923
+So I hope that kind of
+gives you a good overview.
+
+04:49.923 --> 04:54.802
+I'm happy to like, you know, walk through
+this more in person or, or on screen.
+
+04:54.965 --> 04:59.731
+but, hopefully that, that helps you, get a
+sense of, some of the things I was up to.
+
+04:59.899 --> 05:01.464
+anyways, it was great
+talking with you today.
+
+05:01.512 --> 05:02.652
+hope to talk to you soon.
+
+05:03.395 --> 05:03.642
+Bye.
